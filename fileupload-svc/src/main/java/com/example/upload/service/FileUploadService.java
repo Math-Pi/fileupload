@@ -78,7 +78,7 @@ public class FileUploadService {
             byte[] bytes = file.getBytes();
 
             // 文件上传后的路径
-            String filePath = "D:\\Vue\\test\\upload\\src\\main\\resources\\files\\";
+            String filePath = "D:\\Vue\\test\\fileupload-svc\\src\\main\\resources\\files\\";
             //创建文件路径
             File dest = new File(filePath + fileName);
 
